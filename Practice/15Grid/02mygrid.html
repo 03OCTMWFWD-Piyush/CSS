@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .wrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            grid-auto-rows: minmax(200px, auto);
+        }
+        .one{
+            grid-column:  1 / 2 ;
+            grid-row: 1 / 2 ;
+            background: url(../../Image/lion.jpg ) no-repeat center center/cover;
+        }
+        .two{
+            grid-column: 2 / 3 ;
+            grid-row: 1 / 3 ;
+            background: url(../../Image/india\ flag.jpg)no-repeat center center/cover;
+        }
+        .three{
+            grid-column: 3 / 4 ;
+            grid-row: 1 / 2 ;
+            background: url(../../Image/army3.jpg)no-repeat center center/cover;
+        }
+        .four{
+            grid-column: 1 / 2 ;
+            grid-row: 2 / 4 ;
+            opacity: 0.6;
+            background: url(../../Image/vk2.jpg)no-repeat center center/cover;
+        }
+        .five{
+            grid-column: 2 / 3 ;
+            grid-row: 3 / 4 ;
+            background: url(../../Image/image1.jpg)no-repeat center center/cover;
+        }
+        .six{
+            grid-column: 3 / 4 ;
+            grid-row: 2 / 4 ;
+            opacity: 0.5;
+            background: url(../../Image/army1.jpg)no-repeat center center/cover;
+        }
+        .seven{
+            grid-column: 1 / 2 ;
+            grid-row: 4/ 5 ;
+            background: url(../../Image/sudama\ setu.jpg)no-repeat center center/cover;
+        }
+        .eight{
+            grid-column: 2 / 4 ;
+            grid-row: 4 / 6 ;
+            opacity: 0.8;
+            background: url(../../Image/indian\ team.webp)no-repeat center center/cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+        <div class="six">6</div>
+        <div class="seven">7</div>
+        <div class="eight">8</div>
+
+        
+    </div>
+
+
+</body>
+</html>
